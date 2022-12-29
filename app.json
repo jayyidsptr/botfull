@@ -1,0 +1,21 @@
+{
+  "name": "praAI",
+  "description": "bot wa multydevice",
+  "repository": "-",
+  "logo": "https://i.postimg.cc/6qMHLbZC/4158077-D-30-A8-4-EC0-B9-F0-C5-B1-F928-C3-F6.jpg",
+  "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
+  "buildpacks": [
+  {
+    "url": "heroku/nodejs"
+  },
+  {
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+  },
+  {
+    "url": "https://github.com/fewerandfaster/heroku-buildpack-imagemagick.git"
+  },
+  {
+    "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+  }    
+ ]
+}
